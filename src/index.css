@@ -9,6 +9,10 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
+  /* overflow-y: hidden; */
+  /* hide the scroll bar using webskit */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   background-color: black;
   color: white;
   scroll-behavior: smooth;
